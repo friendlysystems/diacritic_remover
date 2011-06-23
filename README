@@ -1,0 +1,11 @@
+DiacriticRemover
+================
+
+Extends String with method #remove_diacritics. It removes diacritics.
+
+
+Example
+=======
+
+'Výzkum a věda'.remove_diacritics # => 'Vyzkum a veda'
+
